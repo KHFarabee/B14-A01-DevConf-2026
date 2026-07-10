@@ -2,6 +2,22 @@
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.p-20 {
+  padding: 2rem;
+}
+
+.px-10 {
+  padding: 0 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -18,19 +34,35 @@
   justify-content: space-between;
 }
 
-.gap-2 {
+.gap-5 {
+  gap: 0.5rem;
+}
+
+.gap-24 {
   gap: 2.4rem;
+}
+
+.gap-32 {
+  gap: 3.2rem;
 }
 
 .text-white {
   color: white;
 }
 
-.text-xl {
+.text-blue {
+  color: #2563eb;
+}
+
+.text-80 {
   font-size: 8rem;
 }
 
-.text-lg {
+.text-56 {
+  font-size: 5.6rem;
+}
+
+.text-22 {
   font-size: 2.2rem;
 }
 
@@ -48,4 +80,24 @@
 
 .mb-20 {
   margin-bottom: 2rem;
+}
+
+.mb-80 {
+  margin-bottom: 8rem;
+}
+
+.mb-56 {
+  margin-bottom: 5.6rem;
+}
+
+.px-60 {
+  padding: 0 6rem;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }

@@ -19,7 +19,7 @@
           src="./assets/img/logo.png"
           alt="Developers Conference 2026"
         />
-        <ul id="nav-items" class="flex gap-2">
+        <ul id="nav-items" class="flex gap-24">
           <li>Speakers</li>
           <li>Schedule</li>
           <li>Tracks</li>
@@ -31,11 +31,11 @@
     </header>
     <section
       id="hero"
-      class="text-center flex flex-cols items-center justify-between"
+      class="text-center flex flex-cols items-center justify-between mb-80"
     >
-      <div class="text-white flex flex-cols gap-2 hero-text">
-        <h2 class="text-xl">Code. <em class="text-xl">Connect.</em> Create</h2>
-        <p class="text-lg">
+      <div class="text-white flex flex-cols gap-24 hero-text">
+        <h2 class="text-80">Code. <em class="text-80">Connect.</em> Create</h2>
+        <p class="text-22">
           Join 4,000+ engineers, founders, and builders at the premier developer
           <br />
           conference of 2026. Three days of cutting-edge talks, hands-on
@@ -46,6 +46,44 @@
       <button class="btn-primary btn-lg mb-20">Register Now</button>
     </section>
 
-    <main id="main" class="container"></main>
+    <main id="main" class="mx-auto">
+      <section id="speakers">
+        <h2 class="text-56 text-bold text-center mb-56">Meet the Speakers</h2>
+        <div class="container speakers grid grid-cols-2 gap-32 px-60">
+          <div class="speaker">
+            <img src="./assets/img/andrej.png" alt="" />
+            <div class="p-20 flex flex-cols gap-5">
+              <p class="uppercase text-blue text-bold">AI/ML</p>
+              <p class="text-bold text-base">Andrej Karpathy</p>
+              <p>Pretraining team, Anthropic</p>
+            </div>
+          </div>
+          <div class="speaker">
+            <img src="./assets/img/demis.png" alt="" />
+            <div class="p-20 flex flex-cols gap-5">
+              <p class="uppercase text-blue text-bold">Cloud & Devops</p>
+              <p class="text-bold text-base">Demis Hassabis</p>
+              <p>Co-Founder and CEO, Google DeepMind</p>
+            </div>
+          </div>
+          <div class="speaker">
+            <img src="./assets/img/gary.png" alt="" />
+            <div class="p-20 flex flex-cols gap-5">
+              <p class="uppercase text-blue text-bold">Frontend</p>
+              <p class="text-bold text-base">Gary Marcus</p>
+              <p>Staff Engineer, Vercel</p>
+            </div>
+          </div>
+          <div class="speaker">
+            <img src="./assets/img/mustafa.png" alt="" />
+            <div class="p-20 flex flex-cols gap-5">
+              <p class="uppercase text-blue text-bold">Security</p>
+              <p class="text-bold text-base">Mustafa Suleyman</p>
+              <p>CEO of Microsoft AI</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

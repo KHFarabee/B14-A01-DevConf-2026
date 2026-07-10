@@ -33,3 +33,15 @@
 #main {
   width: 144rem;
 }
+
+#speakers {
+}
+
+.speakers {
+}
+
+.speaker {
+  border: #e5e7eb 1px solid;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
