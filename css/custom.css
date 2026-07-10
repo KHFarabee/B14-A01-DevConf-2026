@@ -1,0 +1,19 @@
+#header {
+  height: 9.8rem;
+}
+
+#nav-items {
+  list-style: none;
+}
+
+#nav-items > li {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.6rem;
+}
+
+#logo {
+  height: 4.4rem;
+}
+
+#hero {
+}
