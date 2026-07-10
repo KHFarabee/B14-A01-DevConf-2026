@@ -22,12 +22,10 @@
   gap: 2.4rem;
 }
 
-/* TEXT COLOR */
 .text-white {
   color: white;
 }
 
-/* TEXT SIZE */
 .text-xl {
   font-size: 8rem;
 }
@@ -40,12 +38,14 @@
   font-size: 1.6rem;
 }
 
-/* TEXT STYLE */
 .text-italic {
   font-style: italic;
 }
 
-/* TEXT POSITION */
 .text-center {
   text-align: center;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
 }
