@@ -8,5 +8,150 @@
 }
 
 body {
-  background-color: #ffffff;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.btn {
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+.btn-primary {
+  background-color: #1d4ed8;
+  color: #fff;
+  border: none;
+}
+
+.btn-sm {
+  padding: 1.2rem 2.8rem;
+  font-size: 1.6rem;
+}
+
+.btn-lg {
+  padding: 1.2rem 3.8rem;
+  font-size: 2.4rem;
+}
+
+#header {
+  height: 9.8rem;
+  display: flex;
+  align-items: center;
+}
+
+#nav {
+  width: 132rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-items {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+#nav-items > li {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.6rem;
+}
+
+#hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./../assets/img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 5rem;
+  min-height: 70vh;
+  max-width: 100vw;
+  color: #fff;
+  text-align: center;
+  /* padding: 15rem 0.5rem 8rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text-section {
+  margin-top: 8rem;
+}
+
+.hero-title {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.hero-title > em {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.hero-description {
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+
+.hero-btn {
+  margin-bottom: 3rem;
+}
+
+#main {
+  width: 144rem;
+  margin: 0 auto;
+}
+
+#meet-speakers {
+  /* width: 132.1rem; */
+  margin: 0 auto;
+  padding: 8rem 6rem;
+}
+
+.speaker-title {
+  font-size: 5.6rem;
+  margin-bottom: 5.6rem;
+  text-align: center;
+}
+
+.speakers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
+.speaker {
+  border: #e5e7eb 1px solid;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.speaker-text-section {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.speaker-img {
+  height: 32.4rem;
+}
+
+.speaker-role {
+  text-transform: uppercase;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.speaker-name {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.speaker-designation {
+  color: #575757;
+  font-size: 1.4rem;
 }

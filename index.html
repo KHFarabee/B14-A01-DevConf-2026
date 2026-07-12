@@ -6,36 +6,25 @@
     <title>DevConf 2026</title>
     <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/utilities.css" />
-    <link rel="stylesheet" href="./css/components.css" />
-    <link rel="stylesheet" href="./css/custom.css" />
   </head>
   <body>
-    <!-- HEADER -->
-    <header id="header" class="flex items-center">
-      <nav class="container flex justify-between items-center">
-        <img
-          id="logo"
-          src="./assets/img/logo.png"
-          alt="Developers Conference 2026"
-        />
-        <ul id="nav-items" class="flex gap-24">
+    <header id="header">
+      <nav id="nav">
+        <img src="./assets/img/logo.png" alt="Developer Conference 2026" />
+        <ul id="nav-items">
           <li>Speakers</li>
           <li>Schedule</li>
           <li>Tracks</li>
           <li>Venue</li>
           <li>Blog</li>
         </ul>
-        <button class="btn-primary btn-sm">Register Now</button>
+        <button class="btn btn-primary btn-sm">Register Now</button>
       </nav>
     </header>
-    <section
-      id="hero"
-      class="text-center flex flex-cols items-center justify-between mb-80"
-    >
-      <div class="text-white flex flex-cols gap-24 hero-text">
-        <h2 class="text-80">Code. <em class="text-80">Connect.</em> Create</h2>
-        <p class="text-22">
+    <section id="hero">
+      <div class="hero-text-section">
+        <h2 class="hero-title">Code. <em>Connect.</em> Create</h2>
+        <p class="hero-description">
           Join 4,000+ engineers, founders, and builders at the premier developer
           <br />
           conference of 2026. Three days of cutting-edge talks, hands-on
@@ -43,47 +32,50 @@
           and meaningful connections.
         </p>
       </div>
-      <button class="btn-primary btn-lg mb-20">Register Now</button>
+      <button class="btn btn-primary btn-lg hero-btn">Register Now</button>
     </section>
+    <main id="main">
+      <section id="meet-speakers">
+        <h2 class="speaker-title">Meet the Speakers</h2>
+        <div class="speakers">
+          <div class="speaker">
+            <img class="speaker-img" src="./assets/img/andrej.png" alt="" />
+            <div class="speaker-text-section">
+              <p class="speaker-role">AI/ML</p>
+              <p class="speaker-name">Andrej Karpathy</p>
+              <p class="speaker-designation">Pretraining team, Anthropic</p>
+            </div>
+          </div>
 
-    <main id="main" class="mx-auto">
-      <section id="speakers">
-        <h2 class="text-56 text-bold text-center mb-56">Meet the Speakers</h2>
-        <div class="container speakers grid grid-cols-2 gap-32 px-60">
           <div class="speaker">
-            <img src="./assets/img/andrej.png" alt="" />
-            <div class="p-20 flex flex-cols gap-5">
-              <p class="uppercase text-blue text-bold">AI/ML</p>
-              <p class="text-bold text-base">Andrej Karpathy</p>
-              <p>Pretraining team, Anthropic</p>
+            <img class="speaker-img" src="./assets/img/demis.png" alt="" />
+            <div class="speaker-text-section">
+              <p class="speaker-role">Cloud & Devops</p>
+              <p class="speaker-name">Demis Hassabis</p>
+              <p class="speaker-designation">
+                Co-Founder and CEO, Google DeepMind
+              </p>
             </div>
           </div>
           <div class="speaker">
-            <img src="./assets/img/demis.png" alt="" />
-            <div class="p-20 flex flex-cols gap-5">
-              <p class="uppercase text-blue text-bold">Cloud & Devops</p>
-              <p class="text-bold text-base">Demis Hassabis</p>
-              <p>Co-Founder and CEO, Google DeepMind</p>
+            <img class="speaker-img" src="./assets/img/gary.png" alt="" />
+            <div class="speaker-text-section">
+              <p class="speaker-role">Frontend</p>
+              <p class="speaker-name">Gary Marcus</p>
+              <p class="speaker-designation">Staff Engineer, Vercel</p>
             </div>
           </div>
           <div class="speaker">
-            <img src="./assets/img/gary.png" alt="" />
-            <div class="p-20 flex flex-cols gap-5">
-              <p class="uppercase text-blue text-bold">Frontend</p>
-              <p class="text-bold text-base">Gary Marcus</p>
-              <p>Staff Engineer, Vercel</p>
-            </div>
-          </div>
-          <div class="speaker">
-            <img src="./assets/img/mustafa.png" alt="" />
-            <div class="p-20 flex flex-cols gap-5">
-              <p class="uppercase text-blue text-bold">Security</p>
-              <p class="text-bold text-base">Mustafa Suleyman</p>
-              <p>CEO of Microsoft AI</p>
+            <img class="speaker-img" src="./assets/img/mustafa.png" alt="" />
+            <div class="speaker-text-section">
+              <p class="speaker-role">Security</p>
+              <p class="speaker-name">Mustafa Suleyman</p>
+              <p class="speaker-designation">CEO of Microsoft AI</p>
             </div>
           </div>
         </div>
       </section>
+      <section id="booking"></section>
     </main>
   </body>
 </html>
