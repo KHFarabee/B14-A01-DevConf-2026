@@ -15,6 +15,7 @@ body {
 .btn {
   font-weight: bold;
   border-radius: 1rem;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -59,9 +60,16 @@ body {
   gap: 2.4rem;
 }
 
-#nav-items > li {
+.nav-link,
+.nav-link:link,
+.nav-link:active,
+.nav-link:visited,
+.nav-link:hover {
+  text-decoration: none;
   font-family: "Arimo", sans-serif;
   font-size: 1.6rem;
+  color: #333333;
+  font-weight: 500;
 }
 
 #hero {
@@ -275,4 +283,53 @@ body {
 
 .sponsor-logo > img {
   width: 18rem;
+}
+
+#footer {
+  background-color: #0d1b2a;
+  padding: 6rem;
+  color: #fff;
+  font-weight: lighter;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-icons > i {
+  font-size: 2rem;
+}
+
+.footer-logo > span {
+  font-size: 1.4rem;
+}
+
+.footer-links > ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-link,
+.footer-link:link,
+.footer-link:active,
+.footer-link:hover,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 500;
+  font-weight: lighter;
 }
